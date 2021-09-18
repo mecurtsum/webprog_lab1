@@ -44,7 +44,7 @@ body {
 }
 
 .content {
-    display: flex;
+    display: block;
     width: 70%;
 }
 
