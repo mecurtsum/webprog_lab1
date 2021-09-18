@@ -50,5 +50,6 @@ body {
 
 .sidebar {
     display: flex;
-    width: 30%;
+    width: 25%;
+    padding-right: 50px;
 }
