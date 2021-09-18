@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
 body {
     background-image: url(./images/background.jpg);
     font-family: 'Noto Serif', serif;
+    padding: 80px;
 }
 
 .container {
@@ -10,4 +12,43 @@ body {
     border: 10px solid maroon;
     margin: 0 auto;
     background-color: aliceblue;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 40px;
+}
+
+.title-block {
+    display: flex;
+    font-size: large;
+    width: 80%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.avatar {
+    display: flex;
+    padding: 30px;
+    width: 20%;
+}
+
+.content-wrapper {
+    display: flex;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+    width: 70%;
+    border: 2px solid purple;
+}
+
+.sidebar {
+    display: flex;
+    width: 30%;
+    border: 2px solid rebeccapurple;
 }
